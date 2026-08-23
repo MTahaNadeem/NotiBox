@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NotiBox</string>
+    <string name="notification_service_label">NotiBox Notification Capture Service</string>
+</resources>
