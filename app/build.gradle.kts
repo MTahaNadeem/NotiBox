@@ -2,8 +2,7 @@ import com.google.gms.googleservices.GoogleServicesPlugin.MissingGoogleServicesS
 
 plugins {
   alias(libs.plugins.android.application)
-  id("org.jetbrains.kotlin.android")        // ADDED: Required for Kotlin
-  id("org.jetbrains.kotlin.plugin.compose") // FIXED: Forces the correct Kotlin 2.0 Compiler
+  id("org.jetbrains.kotlin.plugin.compose") // Keep this (it fixes the compiler crash)
   alias(libs.plugins.google.devtools.ksp)
   alias(libs.plugins.roborazzi)
   alias(libs.plugins.secrets)
